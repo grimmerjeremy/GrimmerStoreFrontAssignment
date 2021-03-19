@@ -1,0 +1,187 @@
+/*Overall*/
+body{
+    font-size:67.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: url(source/background_spoons.jpg) no-repeat fixed top center;*/
+    background: url(../GrimmerStoreFrontAssignment/source/background_leaves.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+h1 {
+    color: #176628;
+    font-size: 3.3em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color: #57340c;
+    font-size: 2.9em;
+    padding: 0px;
+    margin: 0.5em 0 0.5em 0;
+}
+h3 {
+    color: #176628;
+    font-size: 2.3em;
+    padding: 0px;
+    margin: 0.5em 0 0.5em 0;
+}
+p {
+    font-size: 1.5em;
+    color: rgb(70, 10, 10);
+    padding: 0px;
+    margin: 0px 0.5em 0em 0px;
+}
+ul {
+    font-size: 1.5em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+ul li {
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+a, a:visited {
+    color: #C64322;
+}
+a:hover {
+    color: #333;
+}
+
+/*Header*/
+
+header {
+    padding: 4.5em 0 0.5em 0;
+    margin: 0 0 0 0;
+    /*background: url(../GrimmerStoreFrontAssignment/source/Banner.jpg);*/
+}
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    /*-webkit-text-stroke: 2px white;*/
+    color: #176628;
+    font-size: 4.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+    /*text-shadow: 9px 7px 7px #eeeef0;*/
+}
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    /*-webkit-text-stroke: 1px white;*/
+    font-size: 2.4em;
+    color: #176628;
+    margin: 0em 0 0 1.5em;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0.05em;
+}
+header ul li {
+    font-size: 1.0em;
+    margin: 0.1em 0 0 5.0em;
+    text-shadow: 0.5px 0.5px 0.5px rgb(238, 231, 228);
+}
+/*Follow Us*/
+nav{
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav#followMenu {
+    position: absolute;
+    right: 0px; 
+    display: block;
+    background-color: rgba(224, 187, 138, 0.7);
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 0.5em 0.5em 0.5em 1em;
+}
+section#dinning{
+    margin: 2.0em 0 0 2.0em;
+    display: inline-block;
+    border-radius: 2em;
+}
+section div.menu{
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 2em 1.5em 2.0em 0.5em;
+    padding: 0.5em 1em 0 4em;
+    background-color: rgba(224, 187, 138, 0.7);
+    border: #C64342 solid 2px;
+    border-radius: 0.6em;
+}
+button {
+    font-size: 1.4em;
+    position: absolute;
+    right: 5px;
+    color: black;
+    font-size: 17px;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 0.75em 0px 10;
+    padding: 0.2em 0.5em;
+    border: 3px solid #C64342;
+}
+button:hover {
+    background-color: yellow;
+    border: 1.5px solid black;
+}
+section.Location {
+    width: 238px;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: -90.5em 20em 3.0em 98.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border: #C64342 solid 2.5px;
+   }
+section.Info{
+    background-color: rgba(224, 187, 138, 0.7);
+    margin: 45em 95em 3.0em 0.5em;
+    padding: 2em 2em 2em 2em;
+  border: #C64342 solid 2.5px;
+}
+footer {
+    background-color: #cec0b6;
+    border-color: black;
+    border: 2px solid;
+    height: 20px;
+    width: relative;
+    font-size: 0.9em;
+    color: rgb(5, 21, 73);
+    text-align: left;
+    padding: 1em 0 0em 2.0em;
+    margin: 2em 2em 2em 2em;
+    margin-top: 580px;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
